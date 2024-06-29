@@ -84,7 +84,7 @@ while True:
                             # Validasi nilai negatif
                             if jumlah > 0:
                                 hasil = jumlah * Currency[kode]['kurs']
-                                print(f'Hasil konversi: {hasil:,.2f} {Currency[kode]["mata uang"]}\n')
+                                print(f'Hasil konversi: {hasil:,.2f} Rupiah\n')
                                 break
                             else:
                                 print('Nilai yang anda masukkan tidak valid.\n')
